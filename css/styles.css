@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   color: #6c757d;
   background-color: #f8f9fa;
 }
@@ -14,7 +14,7 @@ hr {
 }
 
 a {
-  color: #f3a14b;
+  color: lightblue;
 }
 a:hover {
   color: #93ada4;
@@ -25,7 +25,7 @@ header.masthead {
   padding-top: 6rem;
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #eadfc9;
+  background-color: #1c19be;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -34,7 +34,7 @@ header.masthead {
   font-weight: 450;
   font-size: 1.5rem;
   line-height: 1.2;
-  color: #dc7646;
+  color: plum;
 }
 .masthead-full-name {
   font-family: 'Anton', sans-serif;
@@ -42,7 +42,7 @@ header.masthead {
   font-size: 2.75rem;
 }
 .last-name-highlight {
-  color: #f3a14b;
+  color: lightblue;
 }
 @media (max-width: 576px) {
   .masthead-full-name {
@@ -53,7 +53,7 @@ header.masthead {
 }
 
 .bg-primary {
-  background-color: #eadfc9 !important;
+  background-color: #9493f8 !important;
 }
 
 .img-profile {
@@ -94,7 +94,7 @@ header.masthead {
 }
 
 .text-primary {
-  color: #f3a14b !important;
+  color: #4bc3f3 !important;
 }
 
 .text-dark {
@@ -131,7 +131,7 @@ header.masthead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #dc7646;
+  background-color: #6562ee;
 }
 
 .dev-icons {
@@ -141,7 +141,7 @@ header.masthead {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  background-color: #eadfc9;
+  background-color: #9493f8;
 }
 
 /* CV navbar styling */
@@ -153,7 +153,7 @@ header.masthead {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #f3a14b;
+  color: #25076b;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: #93ada4;
@@ -165,7 +165,7 @@ header.masthead {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #93ada4;
+  color: #7ad3da;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -187,50 +187,50 @@ header.masthead {
 /* Button Styling */
 
 .btn-primary {
-  color: #f8f9fa;
-  background-color: #f3a14b;
-  border-color: #f3a14b;
+  color: plum;
+  background-color: #2e2bda;
+  border-color: #6c49bf;
 }
 
 .btn-primary:hover {
   color: #f8f9fa;
-  background-color: #93ada4;
-  border-color:#93ada4;
+  background-color: #af89a9;
+  border-color:#af89a9;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #bfdbcf;
-  background-color: #93ada4;
-  border-color: #93ada4;
+  background-color: #af89a9;
+  border-color: #af89a9;
 
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
-  color: #bfdbcf;
-  background-color: #93ada4;
-  border-color: #93ada4;
+  color: #aaedf1;
+  background-color: #af89a9;
+  border-color: #af89a9;
 }
 .btn-outline-primary {
-  color: #DB995A;
-  border-color: #DB995A;
+  color: #af89a9;
+  border-color: #af89a9;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #DB995A;
-  border-color: #DB995A;
+  background-color: rgba(223, 123, 236, 0.527);
+  border-color: rgba(243, 132, 237, 0.678);
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem #93ada4;
+  box-shadow: 0 0 0 0.2rem #af89a9;
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #93ada4;
+  color: #aaedf1;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #DB995A;
-  border-color: #DB995A;
+  color: #aaedf1;
+  background-color: #af89a9;
+  border-color: #af89a9;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem #dc7646;
+  box-shadow: 0 0 0 0.2rem #96568c;
 }
 
 .btn-xl {
@@ -280,7 +280,7 @@ header.masthead {
 }
 
 .border-primary {
-  border-color: #DB995A !important;
+  border-color: rgb(228, 113, 209) !important;
 }
 
 /* Generic, Portfolio Page Section */
@@ -311,19 +311,19 @@ header.masthead {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #eadfc9;
+  background-color: #1c19be;
   color: #f8f9fa;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 1.25rem;
-  color: #dc7646;
+  color: plum;
   text-transform: uppercase;
-  background-color: #bfdbcf;
+  background-color: #9493f8;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #dc7646;
+  color:  plum;
   font-weight: 700;
   letter-spacing: 0.0625em;
   font-family: 'Anton', sans-serif;
@@ -331,15 +331,15 @@ header.masthead {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 0.95rem;
-  color: #dc7646;
+  color:  #a046dc;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active{
-  color: #DB995A;
+  color:  #a046dc;
 } 
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #DB995A;
+  color:  #a046dc;
 }
 
 @media (min-width: 992px) {
@@ -361,7 +361,7 @@ header.masthead {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #eadfc9;
+    background-color: #9493f8;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -395,7 +395,7 @@ header.masthead {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #93ada4;
+  background: #ac93ad;
   align-items: center;
   justify-content: center;
   opacity: 0;
